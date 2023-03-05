@@ -7,3 +7,10 @@ for($randValue = 0; $randValue < 10; $randValue++) {
 }
 
 print_r($arrayRandValues_3);
+
+for($value = 0; $value < 10; $value++) {
+    $currentValue = $arrayRandValues_3[$value];
+    if(is_int($currentValue)){
+        echo $currentValue . " ";
+    }
+}
